@@ -1,4 +1,4 @@
-#Jira-GitHub-issue-tracker-template 
+# Jira-GitHub-issue-tracker-template 
 
 This is a template repo that syncs your GitHub issues to your Jira project as tickets.
 
