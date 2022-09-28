@@ -2,7 +2,7 @@
 
 This is a template repo that syncs your GitHub issues to your Jira project as tickets.
 
-To setup the repo with your own Jira project, fork this repo and create 2 secrets as described below:
+To setup the repo with your own Jira project, use this repo and create 2 secrets as described below:
 
 1 - A secret with the key being "JiraUrl" and the value being your main Jira url (companyName.atlassian.net)
 
