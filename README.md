@@ -2,6 +2,12 @@
 
 This is a template repo that syncs your GitHub issues to your Jira project as tickets.
 
+To setup the repo with your own Jira project, fork this repo and create 2 secrets as described below:
+
+1 - A secret with the key being "JiraUrl" and the value being your main Jira url (companyName.atlassian.net)
+
+2 - A secret with the key being "ProjectTitle" and the value being the project's short name on Jira.
+
 ## How and what does it actually track?
 
 After opening an issue in the repo, a corresponding jira ticket is added to the backlog. The issue
@@ -30,8 +36,7 @@ To be able to create and update issues/tickets, 2 steps are needed.
 #### Secret names limitations
 
 ```
-Secret names can only contain alphanumeric characters ([a-z], [A-Z], [0-9]) or underscores (_).
-Spaces are not allowed. Must start with a letter ([a-z], [A-Z]) or underscores (_).
+If your GitHub name contains any special chars, add it as a key to the secret WITHOUT the special chars. The workflow will handle that smoothly.
 ```
 
 Please make sure to execute these two steps before opening an issue, otherwise nothing will happen on Jira side when you do!
