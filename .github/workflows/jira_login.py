@@ -7,8 +7,6 @@ def main(mode):
         print (user_data[0].strip().replace("\n", ""))
     elif mode == "token":
         print (user_data[1].strip().replace("\n", ""))
-    else:
-        print (user_data[2].strip().replace("\n", ""))
 
 if __name__ == "__main__":
     main(sys.argv[1])
