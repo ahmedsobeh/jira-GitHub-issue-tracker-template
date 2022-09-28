@@ -25,7 +25,7 @@ All discussions/comments on the GitHub issue are mirrored on the Jira ticket(exc
 To be able to create and update issues/tickets, 2 steps are needed.
 
 1. Create a [Jira API token](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
-2. Create an [actions secret](https://github.com/aiven/ospo-tracker/settings/secrets/actions) (you need to be part of the [Aiven Open Source team in Github](https://github.com/orgs/aiven/teams/aiven-open-source) to be able to do that) in the repo (settings -> secrets -> actions), use your github ID as the name of the secret (some limitations apply, see below).  The value should comprise your email and Jira token separated by a comma like this: `ahmed.sobeh@aiven.io,tEstJiratOkEnForReAdMe`
+2. Create an [actions secret](https://github.com/aiven/ospo-tracker/settings/secrets/actions) (settings -> secrets -> actions), use your github ID as the name of the secret (some limitations apply, see below).  The value should comprise your email and Jira token separated by a comma like this: `ahmed.sobeh@aiven.io,tEstJiratOkEnForReAdMe`
 
 #### Secret names limitations
 
